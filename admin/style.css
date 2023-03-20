@@ -1,0 +1,410 @@
+.login {
+    width: 320px;
+    margin: 0 auto;
+    padding: 7% 0;
+}
+
+body.admin, .admin-login {
+    background: #f0f0f1;
+}
+
+.login form {
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+	box-sizing: border-box;
+}
+
+.login form input:not([type="submit"]){
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+}
+
+.admin-blue-color{
+	color:#2271b1;
+}
+
+.admin-blue-bg{
+	background:#2271b1;
+}
+.blue-border-color{
+	border-color:#2271b1;
+}
+
+.submit input, .blue-filled {
+    border: 1px solid;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    min-height: 32px;
+    font-size: 13px;
+    padding: 0px 12px;
+    border-radius: 3px;
+}
+
+.login-failed {
+    margin-top: 25px;
+}
+.admin-header {
+    background: #000;
+    z-index: 9;
+    position: relative;
+}
+.left, .right {
+    width: 50%;
+    display: inline-block;
+	vertical-align: middle;
+}
+.admin-top-bar {
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.user span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.user span img{
+    width: 32px;
+    height: 32px;
+}
+.opacity-zero {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
+.user {
+    position: relative;
+    width: fit-content;
+    float: right;
+    cursor: pointer;
+}
+.user:hover .opacity-zero {
+    opacity: 1;
+}
+.user a {
+    background: #000;
+    color: #fff;
+    padding: 10px 10px 10px;
+    display: block;
+    width: 90px;
+}
+.left-dashboard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 32px;
+    height: 100%;
+    width: 160px;
+    background: #000;
+    color: #fff;
+}
+.admin-top-bar a, .left-dashboard a {
+    color: #fff;
+}
+ul {
+    padding-left: 0;
+}
+.left-dashboard a {
+    color: #fff;
+    padding: 8px 0 8px 34px;
+    display: block;
+    text-decoration: none;
+}
+.admin-content {
+    margin-left: 160px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.forgot-password {
+    padding-top: 10px;
+}
+p {
+    margin: 0;
+}
+.blue-notfilled {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+}
+select, input:not([type=submit],[type=checkbox],[type=file]) {
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+form {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+label {
+    padding-bottom: 10px;
+    /* box-sizing: border-box; */
+    display: block;
+}
+.categories .categories-left form label {
+    display: block;
+    padding: 2px 0;
+}
+.categories .categories-left form p {
+    margin: 2px 0 5px;
+    color: #646970;
+    font-size: 13px;
+	line-height: 1.5;
+}
+.categories-left, .categories-right{
+	display:inline-block;vertical-align: top;
+}
+.categories .categories-left form input:not([type=submit]) {
+    width: 100%;
+}
+.categories .admin-container .categories-right {
+    width: 65%;
+}
+.categories .admin-container .categories-left {
+    width: 35%;
+}
+.categories-left .field {
+    padding-right: 35px;
+}
+.field {
+    margin-bottom: 15px;
+}
+textarea {
+    height: 113px;
+    width: 100%;
+}
+.float-left {
+    float: left;
+}
+.float-rigtht {
+    float: right;
+}
+table.fixed {
+    table-layout: fixed;
+}
+.widefat tfoot td, .widefat th, .widefat thead td {
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+.widefat {
+    background:white;
+	border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+	border-spacing: 0;
+}
+.widefat * {
+    word-wrap: break-word;
+}
+.widefat .check-column{
+	padding-top: 4px;
+    vertical-align: middle;
+	padding: 11px 0 0 3px;
+	width: 2.2em;
+}
+.widefat thead td {
+    font-size: 14px;
+}
+.widefat thead td, .widefat thead th {
+    border-bottom: 1px solid #c3c4c7;
+}
+ .widefat thead td input, .widefat tfoot td input {
+    margin: 0 0 0 8px;
+    padding: 0;
+    vertical-align: text-top;
+}
+input[type=checkbox], input[type=radio] {
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #50575e;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 1rem;
+    margin: -0.25rem 0.25rem 0 0;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    width: 1rem;
+    min-width: 1rem;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    transition: .05s border-color ease-in-out;
+}
+.widefat th.sortable{
+    padding: 0;
+}
+.alternate, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd) {
+    background-color: #f6f7f7;
+}
+
+.widefat td{
+    font-size: 13px;
+    line-height: 1.5em;
+}
+.fixed .column-posts {
+    width: 74px;
+}
+.actions {
+    padding: 18px 0;
+    display: table;
+    width: 100%;
+}
+.widefat td.check-column {
+    padding-top: 4px;
+    vertical-align: middle;
+}
+th.sortable a, th.sorted a {
+    display: block;
+    overflow: hidden;
+    padding: 8px;
+}
+a {
+    text-decoration: none;
+}
+.widefat td, .widefat th {
+    padding: 8px 10px;
+}
+.row-title {
+    font-size: 14px!important;
+    font-weight: 600;
+}
+.row-actions {
+    color: #00000057;
+    opacity: 0;
+}
+tr:hover .row-actions {
+    opacity: 1;
+}
+.row-actions a {
+    /* opacity: .5; */
+    color: #2271b1;
+	font-weight:300;
+}
+.widefat td {
+    vertical-align: top;
+    font-weight: 300;
+}
+table a {
+	color:#2271b1;
+}
+.price, .quantity{
+	width:67px;
+}
+.red{
+	color:red !important;
+}
+.green{
+	color:green !important;
+}
+.products-right, .products-left {
+    display: inline-block;
+    vertical-align: top;
+}
+.products-right.r {
+    width: 25%;
+    margin-top: 20px;
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+}
+.products-left {
+    width: 75%;
+}
+.admin .products .products-left input:not([type=submit],[type=checkbox]), .admin .products .products-left textarea {
+    width: 100%;
+	min-height:35px
+}
+.admin .products-left {
+    width: 75%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.admin .products-left form {
+    padding-right: 62px;
+    box-sizing: border-box;
+}
+.admin .products-right label {
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+.admin .products-right input[type="checkbox"], label {
+    vertical-align: middle;
+}
+.admin .products-right .wrap {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 22px;
+	padding-bottom: 20px;
+}
+.admin .products-right .right-block {
+    margin-bottom: 20px;
+}
+input[type="checkbox"]:checked:before {
+    content: "\2714";
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    left: 2px;
+}
+input[type="checkbox"]:checked {
+    background: #2271b1;
+    border-color: #2271b2;
+	position:relative;
+}
+.field.fea-image img {
+    width: 264px;
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.admin .orders table .pro-image img {
+    width: 82px;
+}
+.admin .orders table .pro-other {
+    padding-left: 17px;
+}
+.admin .orders table .pro-price {
+    padding-top: 9px;
+}
+.admin .orders table .product {
+    margin-bottom: 20px;
+}
